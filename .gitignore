@@ -1,0 +1,15 @@
+log/
+data/
+*.log
+*.csv
+__pycache__/
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
+spark_ivy_cache/
+pyspark_project/
