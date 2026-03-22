@@ -22,6 +22,8 @@ Storage: MinIO (S3 Compatible Data Lake)
 ### Architecture Diagram
 Pipeline orchestration (Triggered every 10 minutes) and data flow can be visualized in the standardized diagram below:
 
+![Retail Data Medallion Architecture](https://github.com/Hemant190894/Pyspark_with_Medallion_Architecture/blob/main/assets/Pyspark_with_Medallion_Architecture.png)
+
 ### Advanced Optimization Callout
 The Gold layer processes 9 Million records. Caching standard large datasets can crash standard standard standard standard standard limited standard standard Docker RAM (User Logs Memory OOM). Therefore, this script uses specific optimizations:
 
